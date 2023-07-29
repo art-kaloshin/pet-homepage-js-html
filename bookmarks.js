@@ -12,6 +12,8 @@ const bookmarks = [
     title: "Tools",
     links: [
       { name: "Intranet Mysql", url: "http://mysql.mw" },
+      { name: "Mail alias", url: "http://mailalias.mw" },
+      { name: "S3 storage", url: "http://10.8.0.1:9001" },
     ],
   },
 ];

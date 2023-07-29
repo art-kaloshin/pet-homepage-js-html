@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 :root {
-  --bg: #ff0000;
+  --bg: #333;
   --fg: #ffffff;
   --secondaryFg: #b3b3b3;
   --containerBg: #272727;
