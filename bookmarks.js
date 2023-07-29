@@ -13,7 +13,7 @@ const bookmarks = [
     links: [
       { name: "Intranet Mysql", url: "http://mysql.mw" },
       { name: "Mail alias", url: "http://mailalias.mw" },
-      { name: "S3 storage", url: "http://s3.mw:9001" },
+      { name: "S3 storage", url: "http://s3storage.mw:9001" },
     ],
   },
 ];
