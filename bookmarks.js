@@ -9,11 +9,9 @@ const bookmarks = [
     ],
   },
   {
-    title: "Media",
+    title: "Tools",
     links: [
-      { name: "Youtube", url: "https://youtube.com" },
-      { name: "Netflix", url: "https://netflix.com" },
-      { name: "Crunchyroll", url: "https://crunchyroll.com" },
+      { name: "Intranet Mysql", url: "http://mysql.mw" },
     ],
   },
 ];
