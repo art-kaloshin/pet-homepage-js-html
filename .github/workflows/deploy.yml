@@ -1,4 +1,4 @@
-name: PHP Composer
+name: Deploy by SSH git pull origin
 
 on:
   push:
@@ -22,4 +22,5 @@ jobs:
         username: ${{ secrets.SSH_LOGIN }}
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
-        script: cd /var/www/internal/start.mw ; git pull origin
+        script: cd /var/www/internal/start.mw ; git reset --hard ; git pull origin
+
