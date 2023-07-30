@@ -16,4 +16,11 @@ const bookmarks = [
       { name: "S3 storage", url: "http://s3storage.mw:9001" },
     ],
   },
+  {
+    title: "Billing",
+    links: [
+      { name: "Yota", url: "https://lk.yota.ru"},
+      { name: "Netis", url: "https://stat.netis.ru/"}
+    ]
+  }
 ];
