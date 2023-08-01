@@ -22,5 +22,12 @@ const bookmarks = [
       { name: "Yota", url: "https://lk.yota.ru"},
       { name: "Netis", url: "https://stat.netis.ru/"}
     ]
+  },
+  {
+    title: "Symfony & Laravel",
+    links: [
+      { name: "SymfonyCasts", url: "https://symfonycasts.com/" },
+      { name: "Laravel news", url: "https://laravel-news.com/"}
+    ]
   }
 ];
