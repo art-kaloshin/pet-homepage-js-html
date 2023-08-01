@@ -27,7 +27,7 @@ const bookmarks = [
     title: "Symfony & Laravel",
     links: [
       { name: "SymfonyCasts", url: "https://symfonycasts.com/" },
-      { name: "Laravel news", url: "https://laravel-news.com/"}
+      { name: "Laravel news", url: "https://laravel-news.com/category/news"}
     ]
   }
 ];
