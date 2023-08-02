@@ -22,4 +22,4 @@ jobs:
         username: ${{ secrets.SSH_LOGIN }}
         password: ${{ secrets.SSH_PASSWORD }}
         port: ${{ secrets.SSH_PORT }}
-        script: cd /var/www/internal/start.mw ; git reset --hard ; git pull origin ; wget "https://sms.ru/sms/send?api_id=7C35371F-E674-7810-D92D-B1E030DFD398&to=+79109759770&msg=HOMEPAGE_deploy_done" -o /dev/null
+        script: cd /var/www/internal/start.mw ; git reset --hard ; git pull origin ; wget "https://sms.ru/sms/send?api_id=7C35371F-E674-7810-D92D-B1E030DFD398&to=+79109759770&msg=HOMEPAGE_deploy_done" -O /dev/null
