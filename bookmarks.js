@@ -6,11 +6,13 @@ const bookmarks = [
       { name: "Todo", url: "http://todo.mw" },
       { name: "Wiki", url: "http://wiki.mw" },
       { name: "WP notes", url: "http://notes.mw" },
+      { name: "Flatnotes", url: "https://v2u-notepad.fly.dev/"}
     ],
   },
   {
     title: "Tools",
     links: [
+      { name: "Vault", url: "https://v2u-vault.fly.dev" },
       { name: "Intranet Mysql", url: "http://mysql.mw" },
       { name: "Mail alias", url: "http://mailalias.mw" },
       { name: "S3 storage", url: "http://s3storage.mw:9001" },
