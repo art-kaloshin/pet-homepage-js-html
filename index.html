@@ -24,7 +24,8 @@
         <div class="row">
           <div id="weather-description" class="inline"></div>
           <div class="inline">-</div>
-          <div id="temp" class="inline"></div>
+          <div id="tempLocal" class="inline"></div>
+          (<div id="temp" class="inline"></div>)
         </div>
       </div>
       <div id="bookmark-container"></div>
@@ -79,6 +80,29 @@
         };
         xhr.send();
       }
+
+      function getLocalWeather() {
+        let xhr = new XMLHttpRequest();
+        // Request to open weather map
+        xhr.open(
+          "GET",
+          "https://pvx06zjhq2.execute-api.eu-central-1.amazonaws.com/default/getTempFromDb"
+        );
+        xhr.onload = () => {
+          if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+              let json = JSON.parse(xhr.responseText);
+              document.getElementById("tempLocal").innerHTML =
+                json.outdoor.toFixed(0) + "C<sup>o</sup>";
+            } else {
+              console.log("error msg: " + xhr.status);
+            }
+          }
+        };
+        xhr.send();
+      }
+
+
       // Handle writing out Bookmarks
       function setupBookmarks() {
         const bookmarkContainer = document.getElementById("bookmark-container");
