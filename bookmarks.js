@@ -6,7 +6,7 @@ const bookmarks = [
       { name: "Todo", url: "http://todo.mw" },
       { name: "Wiki", url: "http://wiki.mw" },
       { name: "WP notes", url: "http://notes.mw" },
-      { name: "Flatnotes", url: "https://v2u-notepad.fly.dev/"}
+      { name: "Notes", url: "https://v2u-memos.fly.dev/"}
     ],
   },
   {
@@ -37,6 +37,15 @@ const bookmarks = [
       { name: "Minio storage", url: "http://s3storage.mw:9001" },
       { name: "Backblaze", url: "https://secure.backblaze.com/b2_buckets.htm"},
       { name: "AWS", url: "https://s3.console.aws.amazon.com/s3/home?region=eu-central-1"}
+    ]
+  },
+  {
+    title: "Hosting",
+    links: [
+      {
+        name: "Fly.io",
+        url: "https://fly.io/dashboard"
+      }
     ]
   }
 ];
