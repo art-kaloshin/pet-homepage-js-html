@@ -3,7 +3,7 @@ const bookmarks = [
   {
     title: "Personal",
     links: [
-      { name: "Todo", url: "http://todo.mw" },
+      { name: "Todo", url: "https://todo.localhost.direct" },
       { name: "Wiki", url: "http://wiki.mw" },
       { name: "WP notes", url: "http://notes.mw" },
       { name: "Notes", url: "https://v2u-memos.fly.dev/"}
@@ -14,7 +14,7 @@ const bookmarks = [
     links: [
       { name: "Vault", url: "https://v2u-vault.fly.dev" },
       { name: "Intranet Mysql", url: "http://mysql.mw" },
-      { name: "Mail alias", url: "http://mailalias.mw" },
+      { name: "Mail alias", url: "https://mailalias.localhost.direct" },
     ],
   },
   {
