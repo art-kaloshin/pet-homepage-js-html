@@ -22,7 +22,7 @@ const bookmarks = [
     title: "Tools",
     links: [
       { name: "Intranet Mysql", url: "http://mysql.mw" },
-      { name: "Mail alias", url: "https://mailalias.localhost.direct" },
+      { name: "Mail alias", url: "http://mailalias.mw/" },
     ],
   },
   {
