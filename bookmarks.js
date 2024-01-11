@@ -6,7 +6,8 @@ const bookmarks = [
       { name: "Todo", url: "https://todo.localhost.direct" },
       { name: "Wiki", url: "http://wiki.mw" },
       { name: "WP notes", url: "http://notes.mw" },
-      { name: "Notes", url: "https://v2u-memos.fly.dev/"}
+      { name: "Transmission", url: "http://10.8.0.5:9091/transmission/web/"},
+      { name: "Syncthing", url: "http://10.8.0.5:8384/"},
     ],
   },
   {
