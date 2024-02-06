@@ -1,7 +1,7 @@
 // Note: having length != 4 will mess with layout based on how the site is styled
 const bookmarks = [
   {
-    title: "VPN Services",
+    title: "VPN",
     links: [
       { name: "Todo", url: "https://todo.localhost.direct" },
       { name: "WP notes", url: "http://notes.mw" },
@@ -11,7 +11,7 @@ const bookmarks = [
     ],
   },
   {
-    title: "LAN Services",
+    title: "LAN",
     links: [
       { name: "H.A.", url: "http://192.168.1.5:8123/"},
       { name: "Transmission", url: "http://192.168.1.5:9091/transmission/web/"},
