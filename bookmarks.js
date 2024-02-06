@@ -5,7 +5,7 @@ const bookmarks = [
     links: [
       { name: "Todo", url: "https://todo.localhost.direct" },
       { name: "WP notes", url: "http://notes.mw" },
-      { name: "HOME Assistant", url: "http://10.8.0.5:8123/"},
+      { name: "H.A.", url: "http://10.8.0.5:8123/"},
       { name: "Transmission", url: "http://10.8.0.5:9091/transmission/web/"},
       { name: "Syncthing", url: "http://10.8.0.5:8384/"},
     ],
@@ -13,7 +13,7 @@ const bookmarks = [
   {
     title: "LAN Services",
     links: [
-      { name: "HOME Assistant", url: "http://192.168.1.5:8123/"},
+      { name: "H.A.", url: "http://192.168.1.5:8123/"},
       { name: "Transmission", url: "http://192.168.1.5:9091/transmission/web/"},
       { name: "Syncthing", url: "http://192.168.1.5:8384/"},
     ],
