@@ -21,7 +21,7 @@ const bookmarks = [
   {
     title: "Storage",
     links: [
-      { name: "Minio storage", url: "http://s3storage.mw:9001" },
+      { name: "Minio storage HZ", url: "http://s3storage.mw:9001" },
       { name: "Backblaze", url: "https://secure.backblaze.com/b2_buckets.htm"},
       { name: "AWS", url: "https://s3.console.aws.amazon.com/s3/home?region=eu-central-1"}
     ]
